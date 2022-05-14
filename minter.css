@@ -9,20 +9,19 @@
 }
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: rgb(0, 0, 0);font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 #body
 {
 background-image: linear-gradient(to right top, #e7feff, #e60026, #76ff7a, #ffcff1);
 
 }
-.logo
-{
-position: fixed;
-size: 20px;
-}
+
 .header img
 {
 	width: 80px;margin-left: -15px;
+}
+header{
+	background-color: #e60026;
 }
 
