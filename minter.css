@@ -1,27 +1,101 @@
-.html, body
+html, body
 {
+	background-image: linear-gradient(to right top, #f5af18, #62fa44, #ad9302, #9900ff, #746afd);
   height: 100%;
   margin: 0;
 }
-.login_div
+
+body
 {
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+background-image: linear-gradient(to right top, #f56918, #c5ec16, #02ad6c, #ff00c8, #92eb1f);
 }
+
 .header
 {
-	color: rgb(0, 0, 0);font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: cyan;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
-#body
-{
-background-image: linear-gradient(to right top, #e7feff, #e60026, #76ff7a, #ffcff1);
-
-}
-
 .header img
 {
 	width: 80px;margin-left: -15px;
 }
-header{
-	background-color: #e60026;
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
 }
 
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: rgb(209, 166, 250)
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+.rainbow
+{
+	background-image: linear-gradient(to right top, #f56918, #c5ec16, #02ad6c, #ff00c8, #92eb1f);
+	background-image: linear-gradient(to right top, #1839f5, #f10755, #ad2a02, #e5ff00, #1fcceb);
+}
